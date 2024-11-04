@@ -1,147 +1,199 @@
 body{
-margin: 0;
-padding: 0;
-}
-.top {
-  height: 70px;
-  width: 100%;
-  float: left;
-} 
-.leftlogoinsidetop {
- height: 70px;
- width: 30%;
- float: left;
- display: flex;
- align-items: center;
- justify-content: center;
- font-size: 24px; 
-}
-.logo1 {
-  height: 70px;
-  width: 30%;
-  float: left;
-  padding-top: 1cm;
-  margin-right: -1cm;
-}
-table {
-  border: 0.1px solid black;
-}
-.logo2 {
-  height: 70px;
-  width: 30%;
-  float: left;
-  padding-top: 1cm;
-  margin-right: -1cm;
-}
-
-.middlelogoinsidetop {
-  height: 70px;
-  width: 40%;
-  float : left ;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
-  text-align: center;
- margin-top: -0.3cm;
-}
-.rightlogoinsidetop {
-  height: 70px;
-  width: 30%;
-  float: left;
-  font-size:30px ;
-  display: flex;
-  padding-top: 0.1cm;
-  align-items: center;
-}
-.buttonlogo {
-  height: 20px;
-  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  .top {
+    height: 70px;
+    width: 100%;
+    float: left;
+  } 
+  .leftlogoinsidetop {
+   height: 70px;
+   width: 30%;
+   float: left;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 24px; 
+  }
+  .logo1 {
+    height: 70px;
+    width: 30%;
+    float: left;
+    padding-top: 1cm;
+    margin-right: -1cm;
+  }
+  table {
+    border: 0.1px solid black;
+  }
+  .logo2 {
+    height: 70px;
+    width: 30%;
+    float: left;
+    padding-top: 1cm;
+    margin-right: -1cm;
+  }
   
-}
-.undertop {
-  height: 50px;
-  width: 100%;
-  float: left;
-}
-.buttonundertop {
-  height: 50px;
-  border: 30px;
-  border-color: black;
-  text-align: center;
-  width: 20%;
-  background-color: aliceblue;
-  margin-left: -0.1cm;
-}
-.bigimage {
-  height: 250px;
-  width: 90%;
-  float: left;
-  margin-left: 1.5cm;
-  margin-top: 0.5cm;
-  background-image: url('https://e4life.vn/wp-content/uploads/2021/05/tieng-anh-chuyen-nganh-thiet-ke-do-hoa.jpg') ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-.textandbutton {
-  height: 80px;
-  width: 100%;
-  float: left;
-  margin-top: 0.2cm;
-}
-.text {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  padding-left: 1cm;
-  line-height: 0.2cm;
-  width: 60%;
-  height: 80px;
-  float: left;
-}
-.button1 {
-  width: 30%;
-  height: 40px;
-  float: left;
-  margin-top: 0.1cm;
-}
-.button {
-  height: 40px;
-  width: 80%;
-  background-color: black;
-  color: white;
-  border-radius: 8px;
-  border: none;
-  margin-left: 2cm;
-}
-.ending {
-  height: 160px;
-  width: 100%;
-  float: left;
-  text-align: center;color: black;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.table1 {
-  height: 70px;
-  width: 20%;
-  float: left;
-}
-.table2 {
-  height: 70px;
-  width: 20%;
-  float: left;
-}
-.table3 {
-  height: 70px;
-  width: 20%;
-  float: left;
-}
-.table4 {
-  height: 70px;
-  width: 20%;
-  float: left;
-}
-.table5 {
-  height: 70px;
-  width: 20%;
-  float: left;
-}
+  .middlelogoinsidetop {
+    height: 70px;
+    width: 40%;
+    float : left ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+   margin-top: -0.3cm;
+  }
+  .rightlogoinsidetop {
+    height: 70px;
+    width: 30%;
+    float: left;
+    font-size:30px ;
+    display: flex;
+    padding-top: 0.1cm;
+    align-items: center;
+  }
+  .logosearch{
+    float: left;
+    width: 20%;
+    font-size: 30px;
+    display: flex;
+    padding-left:0.5cm ;
+  }
+  .logocartshopping {
+    float: left;
+    width: 20%;
+    font-size:30px;
+    display: flex;
+  }
+  .buttonlogin {
+    width: 40%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 0.8cm;
+    background-color: white;
+  }
+  #button {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+  }
+  .buttonlogo {
+    height: 20px;
+    width: 100%;
+  }
+  .undertop {
+    height: 50px;
+    width: 100%;
+    float: left;
+  }
+  .buttonundertop {
+    height: 50px;
+    border: 30px;
+    border-color: black;
+    text-align: center;
+    width: 20%;
+    background-color: aliceblue;
+    margin-left: -0.1cm;
+  }
+  .bigimage {
+    height: 250px;
+    width: 90%;
+    float: left;
+    margin-left: 1.5cm;
+    margin-top: 0.5cm;
+    background-image: url('https://e4life.vn/wp-content/uploads/2021/05/tieng-anh-chuyen-nganh-thiet-ke-do-hoa.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width: 100%;
+  }
+  .textandbutton {
+    height: 80px;
+    width: 100%;
+    float: left;
+    margin-top: 0.2cm;
+  }
+  .text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-left: 1cm;
+    line-height: 0.2cm;
+    width: 60%;
+    height: 80px;
+    float: left;
+    max-width: 100%;
+  }
+  @media (max-width: 1107px) {
+    .text {
+        font-size: xx-large;
+        width: 100%;
+        padding-left: 0.1cm; 
+        line-height: 0.2cm; 
+        height: 80px;
+        font-size: 8px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+  }
+  .button1 {
+    width: 30%;
+    height: 40px;
+    float: left;
+    margin-top: 0.1cm;
+  }
+  @media (max-width: 375px) {
+    .button {
+      height: 20px;
+      width: 50%;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+      border: none;
+      margin-left: 2cm;
+    }
+  }
+  .button {
+    height: 40px;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-left: 2cm;
+  }
+  .ending {
+    height: 160px;
+    width: 100%;
+    float: left;
+    text-align: center;color: black;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .table1 {
+    height: 70px;
+    width: 20%;
+    float: left;
+  }
+  .table2 {
+    height: 70px;
+    width: 20%;
+    float: left;
+  }
+  .table3 {
+    height: 70px;
+    width: 20%;
+    float: left;
+  }
+  .table4 {
+    height: 70px;
+    width: 20%;
+    float: left;
+  }
+  .table5 {
+    height: 70px;
+    width: 20%;
+    float: left;
+  }
+  @media screen and (min-width:630px){
+    
+  } 
